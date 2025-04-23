@@ -1,0 +1,28 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../CA project.srcs/sources_1/new/ALU_64_bit.v" \
+"../../../../CA project.srcs/sources_1/new/ALU_Control.v" \
+"../../../../CA project.srcs/sources_1/new/Adder.v" \
+"../../../../CA project.srcs/sources_1/new/Control_Unit.v" \
+"../../../../CA project.srcs/sources_1/new/Data_Memory.v" \
+"../../../../CA project.srcs/sources_1/new/ImmGen.v" \
+"../../../../CA project.srcs/sources_1/new/InsParser.v" \
+"../../../../CA project.srcs/sources_1/new/Instruction_Memory.v" \
+"../../../../CA project.srcs/sources_1/new/Mux.v" \
+"../../../../CA project.srcs/sources_1/new/Program_Counter.v" \
+"../../../../CA project.srcs/sources_1/new/RISC_V_Processor_task2.v" \
+"../../../../CA project.srcs/sources_1/new/branching_unit.v" \
+"../../../../CA project.srcs/sources_1/new/exmemreg.v" \
+"../../../../CA project.srcs/sources_1/new/forwardingunit.v" \
+"../../../../CA project.srcs/sources_1/new/idexreg.v" \
+"../../../../CA project.srcs/sources_1/new/ifidreg.v" \
+"../../../../CA project.srcs/sources_1/new/memwbreg.v" \
+"../../../../CA project.srcs/sources_1/new/mux_3to1.v" \
+"../../../../CA project.srcs/sources_1/new/registerFile.v" \
+"../../../../CA project.srcs/sim_1/new/tb_RISC_V_processor_task2.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

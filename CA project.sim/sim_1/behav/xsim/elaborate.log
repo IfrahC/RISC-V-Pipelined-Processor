@@ -1,0 +1,35 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto ede2f4c587934086bb503ed89676c8f9 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_RISC_V_processor_task3_behav xil_defaultlib.tb_RISC_V_processor_task3 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'stall' is not connected on this instance [C:/Users/as08818/Documents/CA project/CA project.srcs/sim_1/new/tb_RISC_V_Processor_task3.v:11]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.pipeline_flush
+Compiling module xil_defaultlib.hazard_detection_unit
+Compiling module xil_defaultlib.Program_Counter_task3
+Compiling module xil_defaultlib.Instruction_Memory
+Compiling module xil_defaultlib.Adder
+Compiling module xil_defaultlib.ifidreg_task3
+Compiling module xil_defaultlib.InsParser
+Compiling module xil_defaultlib.Control_Unit_task3
+Compiling module xil_defaultlib.data_extractor
+Compiling module xil_defaultlib.registerFile_task3
+Compiling module xil_defaultlib.idexreg_task3
+Compiling module xil_defaultlib.mux_3to1
+Compiling module xil_defaultlib.Mux
+Compiling module xil_defaultlib.ALU_64_bit
+Compiling module xil_defaultlib.ALU_Control
+Compiling module xil_defaultlib.exmemreg_task3
+Compiling module xil_defaultlib.Data_Memory
+Compiling module xil_defaultlib.memwbreg_task3
+Compiling module xil_defaultlib.forwardingunit
+Compiling module xil_defaultlib.branching_unit
+Compiling module xil_defaultlib.RISC_V_Processor_task3
+Compiling module xil_defaultlib.tb_RISC_V_processor_task3
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_RISC_V_processor_task3_behav
