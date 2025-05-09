@@ -4,14 +4,6 @@
 
 **Project**: 5-Stage Pipelined RISC-V Processor Implementing Array Sorting Algorithm
 
-**Team Members**:
-
-* Muhammad Moosa Owais
-* Syed Hamza Raza
-* Sameez Sarfaraz Sajwani
-
----
-
 ## Table of Contents
 
 1. [Project Overview](#project-overview)
